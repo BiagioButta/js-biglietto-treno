@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.no-col{
+    flex-grow: 0;
+    flex-shrink: 0;
+    max-width: auto;
+}
+
+.debug{
+    border: 1px solid black;
+    min-height: 50px;
+}
+
+html{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+
+    --bb-blue-700: #0a64eb;
+}
+
+
+.bg-blue-700{
+    background-color: var(--bb-blue-700);
+}
+
+
+.container{
+    max-width: 250px;
+}
+
+img{
+    width: 100%;
+    height: 100px;
+}
